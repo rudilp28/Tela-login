@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tela Cadastro</title>
+    <!-- <script src="https://kit.fontawesome.com/aff34f868d.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/login.js" type="text/javascript"></script>
+    <!-- <script src="./js/main1.js" type="text/javascript"></script> -->
+    
+</head>
+<body>
+    <div class="container">
+        <div class="content first-content">
+            <div class="first-collun" id="zezinho">
+                <h2 class="title-primary">seja Bem vindo!</h2>
+                <p class="desciption ">Se já tem cadastro</p>
+                <p class="desciption">Logue-se com suas informações pessoais</p>
+                <button  class="btn btn-primary" onclick="Nova()" >sign in</button>
+            </div>
+            <div class="second-collun">
+                <h2 class="title-secundary">Crie sua conta</h2>
+                <p class="desciption desciption-secundary">Cadastre-se inserindo os dados abaixo</p>
+
+                <form  class="form" id="form">
+                    
+                    <label class="label-inpt" for="">
+                        <i class="far fa-envelope"></i>
+                        <input type="text" placeholder="Name" id="nome">
+                    </label>
+
+                    <label class="label-inpt" for="">
+                        <i class="far fa-envelope"></i>
+                        <input type="email"  placeholder="Email" id="email">
+                    </label>
+
+                    <label class="label-inpt" for="">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Senha" id="senha">
+                    </label>
+                    
+                </form>
+                <button class="btn btn-secundary" onclick="logar()" >Entrar</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
